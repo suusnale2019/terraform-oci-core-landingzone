@@ -48,6 +48,11 @@ module "core_lz" {
     tt_vcn3_cidrs = ["192.168.2.0/24"]
     tt_vcn3_attach_to_drg = true
 
+    # --- Spoke VCN: three-tier VCN 4
+    add_tt_vcn4 = true
+    tt_vcn4_cidrs = ["192.168.3.0/24"]
+    tt_vcn4_attach_to_drg = true
+
     # ------------------------------------------------------
     # ----- Notifications
     # ------------------------------------------------------
